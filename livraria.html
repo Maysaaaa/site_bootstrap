@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="imagens/rose.png"> 
+    <title>La vie en rose</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        .titulo{
+            font-size: 50px;
+        }
+        
+        .krd{
+            width: 254px;
+            height: 420px;
+        }
+        .subtitulo{
+            font-size: 30px;
+            color: white;
+        }
+        .bglivro{
+            width: 1800px;
+            height: 850px;
+        }
+        .pad{
+          padding-bottom: 300px;
+        }
+        .nav{
+          height: 80px;
+        }
+        .imagem{
+            width: 200px;
+            height: 500px;
+        }
+        .imagem2{
+            width: 720px;
+            height: 750px;
+        }
+        .quemsomos{
+            width: 400px;
+            height: 800px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="d-flex nav flex-column flex-md-row align-items-center fixed-top p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+      <img src="imagens/rose.png" class="margem">
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="#img">Imagem</a>
+        <a class="p-2 text-dark" href="#apre">Apresentação</a>
+        <a class="p-2 text-dark" href="#qms">Quem somos</a>
+        <a class="p-2 text-dark" href="#prod">Produtos</a>
+      </nav>
+      <a class="btn btn-outline-primary" href="login.html">Login</a>
+    </div>
+<header>
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center carousel-item active">
+        <img src="imagens/bglivraria.jpg" class="bglivro" id="img">
+        <div class="carousel-caption">
+      <h1 class="display-1 titulo"><b>La Vie En Rose</b></h1>
+      <p class="lead subtitulo pad">O amor e a literatura coincidem na procura apaixonada, quase sempre desesperada, da comunicação.</p>
+    </div>
+</div>
+</header>
+
+<h1 class="display-4 titulo text-center"><b id="apre">Livros na La Vie En Rose</b></h1>
+<div class="container text-center">
+    <div class="row">
+   <!--carousel 1--> 
+
+   <div class="col-md-6 col-lg-6">
+      <div class="container-slider">
+         <div class="divslider" style="background-color: black;">
+            <div id="carouselExampleIndicators" data-interval="5000" class="carousel slide" data-ride="carousel">
+               <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+               </ol>  
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <img class="d-block w-100 imagem" src="imagens/l3de1.jpg" alt="Primeiro Slide">
+                     <div class="carousel-caption d-none d-md-block">
+                        <h5>Alguns exemplares</h5>
+                        <p>livros</p>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <img class="d-block w-100 imagem" src="imagens/originala.png" alt="Segundo Slide">
+                  </div>
+                  <div class="carousel-item">
+                     <img class="d-block w-100 imagem" src="imagens/livro1.jpg" alt="Terceiro Slide">
+                  </div>
+               </div>
+               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+               </a>
+               <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+               </a>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!--carousel 2--> 
+   <div class="col-md-6 col-lg-6">
+      <div class="container-slider">
+         <div class="divslider" style="background-color: black;">
+            <div id="carouselExampleIndicators2" data-interval="5000" class="carousel slide" data-ride="carousel">
+               <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+               </ol>  
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <img class="d-block w-100 imagem" src="imagens/l1de2.jpg" alt="Primeiro Slide">
+                     <div class="carousel-caption d-none d-md-block">
+                        <h5>Alguns exemplares</h5>
+                        <p>livros</p>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <img class="d-block w-100 imagem" src="imagens/livro2.jpg" alt="Segundo Slide">
+                  </div>
+                  <div class="carousel-item">
+                     <img class="d-block w-100 imagem" src="imagens/l1de1.jpg" alt="Terceiro Slide">
+                  </div>
+               </div>
+               <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+               </a>
+               <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+               </a>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+   <p class="lead subtitulo text-center" style="color: black">Descubra novas histórias</p>
+   <!--carousel 3-->
+   <div class="col-md-12 col-lg-12">
+      <div class="container-slider">
+         <div class="divslider" style="background-color: black;">
+            <div id="carouselExampleIndicators2" data-interval="5000" class="carousel slide" data-ride="carousel">
+               <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+               </ol>  
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <img class="d-block w-100 imagem2" src="imagens/livro3.png" alt="Primeiro Slide">
+                     <div class="carousel-caption d-none d-md-block">
+                        <h5>Alguns exemplares</h5>
+                        <p>livros</p>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <img class="d-block w-100 imagem2" src="imagens/van.jpg" alt="Segundo Slide">
+                  </div>
+                  <div class="carousel-item">
+                     <img class="d-block w-100 imagem2" src="imagens/rj.jpg" alt="Terceiro Slide">
+                  </div>
+               </div>
+               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+             </a>
+             <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+             </a>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+</div>
+<div class="container">
+    <br><br>
+<h1 class="display-4 titulo text-center" id="qms"><b>Quem somos</b></h1>
+      <table>
+          <tr>
+              <td><img src="imagens/original.jpg"/></td>
+              <td class="lead text-justify  mx-auto text-center lead"> A Livraria La Vie En Rose é uma empresa que reforça a importância dos livros e da cultura na vida das pessoas. Nas lojas físicas, virtuais ou em nosso escritório, reunimos os amantes da literatura, música, quadrinhos e cinema. Estamos aqui para receber aqueles que querem ter acesso à cultura em qualquer uma de suas formas: quem precisa de um livro para iniciar um projeto ou um romance para começar as férias.
+          <br>
+          Somos um centro de entretenimento, onde a busca pelo produto é apenas o início de uma jornada enriquecedora: nossas lojas permitem o acesso à informação e às manifestações culturais por meio de seu extenso acervo e também de teatros, auditórios, cafés, eventos e publicações exclusivas. Queremos que as pessoas aproveitem o tempo e consumam conhecimento – o que nunca é demais. Seja em qual plataforma o cliente estiver, nosso lema é proporcionar diariamente Experiências que Transformam.
+      </td> 
+    </tr> 
+  </table>
+</div>
+  <h1 class="display-2 titulo text-center"><b class="paddd" id="prod">Conheça nossos produtos!</b></h1>
+<div class="container my-5 "> <!-- Tamanho -->
+        <div class="row mb-5"> <!-- Tamanho -->
+            <div class="col-lg-3 col-sm-6"> <!-- Tamanho -->
+                <div class="card h-100"> <!-- Tamanho -->
+                    <img class="card-img-top krd w-100 galeria" src="imagens/omelas.jpg"> <!-- Imagem do card -->
+                    <div class="card-body"> <!-- Corpo do cartão -->
+                        <h4 class="card-title text-center mb-2">Aqueles que se afastam de Omelas</h4> <!-- Título do card -->
+                        <br>
+                        <h6 class="card-subtitle text-justify"> conto de literatura fantástica de Ursula K. Le Guin, incluído em sua coletânea de contos The Wind's Twelve Quarters, que ganhou o Prémio Hugo de Melhor Conto em 1974. <!-- Subtítulo/Descrição do card -->
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div>
+                    <div class='card-footer bg-white border-0'> <!-- rodapé do card / Cor do rodapé /  -->
+                        <form action="add_item.php" method="POST"> <!-- Cria um botão -->
+                            <button class="btn btn-outline-success btn-block card-link"> <!-- Cria um botão -->
+                                <label class="mr-3 mt-2">R$ 18,00</label> <!-- Texto dentro do botão -->
+                                <img src="imagens/carrinho_p.png" alt="Carrinho de compras">  <!-- Imagem dentro do botão -->
+                            </button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6"> <!-- Tamanho -->
+                <div class="card h-100"> <!-- Tamanho -->
+                    <img class="card-img-top krd w-100" src="imagens/1984.jpg"> <!-- Imagem do card -->
+                    <div class="card-body"> <!-- Corpo do cartão -->
+                        <h4 class="card-title text-center mb-2">1984</h4> <!-- Título do card -->
+                        <br>
+                        <h6 class="card-subtitle text-justify">Publicada originalmente em 1949, a distopia futurista 1984 é um dos romances mais influentes do século XX, um inquestionável clássico moderno. <!-- Subtítulo/Descrição do card -->
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div>
+                    <div class='card-footer bg-white border-0'>  <!-- rodapé do card / Cor do rodapé /  -->
+                        <form action="add_item.php" method="POST"> <!-- Cria um botão -->
+                            <button class="btn btn-outline-success btn-block card-link"> <!-- Cria um botão -->
+                                <label class="mr-3 mt-2">R$ 29,00</label> <!-- Texto dentro do botão -->
+                                <img src="imagens/carrinho_p.png" alt="Carrinho de compras"> <!-- Imagem dentro do botão -->
+                            </button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6"> <!-- Tamanho -->
+                <div class="card h-100"> <!-- Tamanho -->
+                    <img class="card-img-top krd w-100" src="imagens/demian.jpg"> <!-- Imagem do card -->
+                    <div class="card-body">
+                        <h4 class="card-title text-center mb-2">Demian</h4> <!-- Título do card -->
+                        <br>
+                        <h6 class="card-subtitle text-justify">Publicado originalmente em 1919, este clássico, considerado um divisor de águas na trajetória de Hermann Hesse, reflete os questionamentos do escritor alemão acerca da humanidade, com suas contradições e dualidades. <!-- Subtítulo/Descrição do card -->
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div>
+                    <div class='card-footer bg-white border-0'>  <!-- rodapé do card / Cor do rodapé /  -->
+                        <form action="add_item.php" method="POST"> <!-- Cria um botão -->
+                            <button class="btn btn-outline-success btn-block card-link"> <!-- Cria um botão -->
+                                <label class="mr-3 mt-2">R$ 35,00</label> <!-- Texto dentro do botão -->
+                                <img src="imagens/carrinho_p.png" alt="Carrinho de compras"> <!-- Imagem dentro do botão -->
+                            </button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6"> <!-- Tamanho -->
+                <div class="card h-100"> <!-- Tamanho -->
+                    <img class="card-img-top krd w-100" src="imagens/thgg.jpg"> <!-- Imagem do card -->
+                    <div class="card-body">
+                        <h4 class="card-title text-center mb-2">The Hitchhiker's Guide to the Galaxy</h4> <!-- Título do card -->
+                        <br>
+                        <h6 class="card-subtitle text-justify">The Hitchhiker's Guide to the Galaxy é o título do primeiro dos cinco livros da série literária The Hitchhiker's Guide to the Galaxy, escrito por Douglas Adams. O livro é uma adaptação das primeiras quatro partes da série de rádio do Adams de mesmo nome.<!-- Subtítulo/Descrição do cardico esquisitão Arthur Dent pela Galáxia conquistou leitores do mundo inteiro.  -->
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div> 
+                    <div class='card-footer bg-white border-0'>  <!-- rodapé do card / Cor do rodapé /  -->
+                        <form action="add_item.php" method="POST"> <!-- Cria um botão -->
+                            <button class="btn btn-outline-success btn-block card-link"> <!-- Cria um botão -->
+                                <label class="mr-3 mt-2">R$ 45,00</label> <!-- Texto dentro do botão -->
+                                <img src="imagens/carrinho_p.png" alt="Carrinho de compras"> <!-- Imagem dentro do botão -->
+                            </button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5"> <!-- Tamanho -->
+        <div class="row mb-5"> <!-- Tamanho -->
+            <div class="col-lg-3 col-sm-6"> <!-- Tamanho -->
+                <div class="card h-100"> <!-- Tamanho -->
+                    <img class="card-img-top krd w-100 galeria" src="imagens/doug.jpg"> <!-- Imagem do card -->
+                    <div class="card-body"> <!-- Corpo do cartão -->
+                        <h4 class="card-title text-center mb-2">Wrecking Ball </h4> <!-- Título do card -->
+                        <br>
+                        <h6 class="card-subtitle text-justify"> Em Wrecking Ball, livro 14 da série Diário de uma criança Wimpy Kid - do principal escritor de best-sellers internacional Jeff Kinney - uma herança inesperada dá à família de Greg Heffley a chance de fazer grandes mudanças em sua casa. <!-- Subtítulo/Descrição do card -->
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div>
+                    <div class='card-footer bg-white border-0'> <!-- rodapé do card / Cor do rodapé /  -->
+                        <form action="add_item.php" method="POST"> <!-- Cria um botão -->
+                            <button class="btn btn-outline-success btn-block card-link"> <!-- Cria um botão -->
+                                <label class="mr-3 mt-2">R$ 18,00</label> <!-- Texto dentro do botão -->
+                                <img src="imagens/carrinho_p.png" alt="Carrinho de compras">  <!-- Imagem dentro do botão -->
+                            </button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6"> <!-- Tamanho -->
+                <div class="card h-100"> <!-- Tamanho -->
+                    <img class="card-img-top krd w-100" src="imagens/badwolf.jpg"> <!-- Imagem do card -->
+                    <div class="card-body"> <!-- Corpo do cartão -->
+                        <h4 class="card-title text-center mb-2">The Bad Guys in The Big Bad Wolf</h4> <!-- Título do card -->
+                        <br>
+                        <h6 class="card-subtitle text-justify">Os bandidos estão de volta para a 9ª edição monstruosamente engraçada da série mais vendida do New York Times ! <!-- Subtítulo/Descrição do card -->
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div>
+                    <div class='card-footer bg-white border-0'>  <!-- rodapé do card / Cor do rodapé /  -->
+                        <form action="add_item.php" method="POST"> <!-- Cria um botão -->
+                            <button class="btn btn-outline-success btn-block card-link"> <!-- Cria um botão -->
+                                <label class="mr-3 mt-2">R$ 57,00</label> <!-- Texto dentro do botão -->
+                                <img src="imagens/carrinho_p.png" alt="Carrinho de compras"> <!-- Imagem dentro do botão -->
+                            </button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6"> <!-- Tamanho -->
+                <div class="card h-100"> <!-- Tamanho -->
+                    <img class="card-img-top krd w-100" src="imagens/guts.jpg"> <!-- Imagem do card -->
+                    <div class="card-body">
+                        <h4 class="card-title text-center mb-2">Guts</h4> <!-- Título do card -->
+                        <br>
+                        <h6 class="card-subtitle text-justify">
+Uma história verídica de Raina Telgemeier, a autora número 1 do Best-seller do New York Times e vários ganhadores do Eisner Award de Smile, Sisters, Drama e Ghosts! <!-- Subtítulo/Descrição do card -->
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div>
+                    <div class='card-footer bg-white border-0'>  <!-- rodapé do card / Cor do rodapé /  -->
+                        <form action="add_item.php" method="POST"> <!-- Cria um botão -->
+                            <button class="btn btn-outline-success btn-block card-link"> <!-- Cria um botão -->
+                                <label class="mr-3 mt-2">R$ 97,00</label> <!-- Texto dentro do botão -->
+                                <img src="imagens/carrinho_p.png" alt="Carrinho de compras"> <!-- Imagem dentro do botão -->
+                            </button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6"> <!-- Tamanho -->
+                <div class="card h-100"> <!-- Tamanho -->
+                    <img class="card-img-top krd w-100" src="imagens/peru.jpg"> <!-- Imagem do card -->
+                    <div class="card-body">
+                        <h4 class="card-title text-center mb-2">O Peru De Peruca</h4> <!-- Título do card -->
+                        <br>
+                        <h6 class="card-subtitle text-justify">De peruca, um pacato peru pode mesmo parecer uma fera maluca. Prêmio Jannart Murtinho Ribeiro, como autor revelação.<!-- Subtítulo/Descrição do cardico esquisitão Arthur Dent pela Galáxia conquistou leitores do mundo inteiro.  -->
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div> 
+                    <div class='card-footer bg-white border-0'>  <!-- rodapé do card / Cor do rodapé /  -->
+                        <form action="add_item.php" method="POST"> <!-- Cria um botão -->
+                            <button class="btn btn-outline-success btn-block card-link"> <!-- Cria um botão -->
+                                <label class="mr-3 mt-2">R$ 50,00</label> <!-- Texto dentro do botão -->
+                                <img src="imagens/carrinho_p.png" alt="Carrinho de compras"> <!-- Imagem dentro do botão -->
+                            </button>
+                        </form>
+                        
+                    </div>     
+                    
+                </div>
+                
+            </div>
+        </div>
+        <p class="mt-5 mb-3 text-muted text-center">&copy; la vie en rose - 2019</p>
+    </div>
+  </div>
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+    </body>
+    </html>
